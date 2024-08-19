@@ -1,0 +1,35 @@
+{% assign valid_url = false %}
+<nav class="navbar-small">
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    Menu <span class="navbar-toggler-icon ms-2"></span>
+    </button> -->
+    <div class="" id="navbarNav">
+        <ul class="navbar-nav ">
+            {% for item in site.data.nav %}
+            {% if item.url == page.url %}
+            {% assign valid_url = true %}
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ item.title }}
+            </a>
+            <ul class="dropdown-menu">
+            {% for subitem in site.data.nav %}
+                {% if subitem.url != page.url %}
+                <li><a class="dropdown-item" href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+            {% endif %}
+            {% endfor %}
+            {% if valid_url == false %} 
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                </a>
+                <ul class="dropdown-menu">
+                {% for subitem in site.data.nav %}
+                    <li><a class="dropdown-item" href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        </ul>
+    </div>
+    </nav>

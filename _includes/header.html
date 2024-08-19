@@ -1,0 +1,19 @@
+<div class="py-3"></div>
+<div class="container">
+<div class="">
+    <div class="logo float-start">
+        <a href="{{ site.baseurl }}/index"><img src="/assets/img/NERC_IS_LAKES_LOGO_v2023_23_08.png"/></a>
+    </div>
+    <!-- Show main navbar when in large breakpoint -->
+    <div class="flex-column ps-4 d-none d-lg-flex">
+        <p class="lead m-0">
+            Investigating the dynamics and evolution of subglacial lakes at Isunnguata Sermia
+        </p>
+        {% include navbar.html %}
+    </div>
+    <!-- Show small navbar when below large breakpoint -->
+    <div class="flex-column ps-4 d-flex d-lg-none">
+        {% include navbar_small.html %}
+    </div>
+</div>
+</div>

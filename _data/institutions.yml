@@ -1,0 +1,30 @@
+institutions:
+  - title: University of Sheffield
+    logo: /assets/img/logos/sheffield.png
+    url: https://www.sheffield.ac.uk/
+  - title: Newcastle University
+    logo: /assets/img/logos/newcastle.png
+    url: #
+  - title: Liverpool John Moores University
+    logo: /assets/img/logos/liverpooljmu.png
+    url: #
+  - title: Northumbria University
+    logo: /assets/img/logos/northumbria.jfif
+    url: #
+  - title: University of Leeds
+    logo: /assets/img/logos/leeds.png
+    url: #
+  - title: Sheffield Hallam University
+    logo: /assets/img/logos/sheffieldhallam.png
+    url: #
+  - title: University of Bristol
+    logo: /assets/img/logos/bristol.jfif
+    url: #
+
+partners:
+  - title: IGE Grenoble
+    logo: /assets/img/logos/ige.png
+    url: #
+  - title: Cadiff University
+    logo: /assets/img/logos/cardiff.png
+    url: #

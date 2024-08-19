@@ -1,0 +1,129 @@
+$my-var: #fff;
+$red: #de0101;
+$blue: #00005f;
+$border-color: $red;
+$headings-color: $blue;
+
+$grid-gutter-width: 4rem;
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+/* Overwrite bootstrap */
+@import "bootstrap/_functions.scss";
+@import "bootstrap/_variables.scss";
+@import "bootstrap/_mixins.scss";
+
+/* Page Header Configuration */
+
+$img-logo-size-sm: 120px;
+$img-logo-size: 180px;
+
+header div.container {
+    // height: $img-logo-size-sm;
+    height: calc($img-logo-size-sm / 2);
+}
+@include media-breakpoint-up(lg) {
+    header div.container {
+        // height: $img-logo-size-sm;
+        height: calc($img-logo-size / 2);
+    }
+}
+
+header div.logo {
+    // position: relative; 
+    // top: calc($img-logo-size-sm / 3);
+    @extend .align-middle;
+    
+}
+header div.logo img {
+    width: $img-logo-size-sm;
+}
+@include media-breakpoint-up(lg) {
+    header {
+        // height: $img-logo-size;
+    }
+    header div.logo img {
+        width: $img-logo-size;
+    }
+    header div.logo {
+        // position: relative; 
+        // top: calc($img-logo-size / 3);
+    }
+}
+
+.splash-image {
+    height: 50vh; 
+    background-position: center;
+    background-size: cover;
+}
+
+/* Navigation configuration */
+$navbar-nav-link-padding-x: 0;
+
+nav {
+    .nav-link, .navbar-toggler, .dropdown-menu .dropdown-item {
+        color: $blue;
+        text-transform: uppercase;
+        border-color: rgba($red, 0);
+    }
+    .nav-link, .navbar-toggler {
+        font-weight: bold;
+    }
+}
+
+nav .nav-link {
+    @extend .me-4;
+}
+
+nav .nav-link.active {
+    color: $blue !important;
+    @extend .border-bottom;
+}
+
+nav .nav-link, .navbar-small .dropdown-menu .dropdown-item {
+    &:hover,
+    &:focus {
+        color: $blue;
+        border-color: rgba($red, 1);
+        transition: 0.3s;
+        @extend .border-bottom;
+    }
+}
+
+.navbar-small {
+    @extend .navbar;
+}
+
+.navbar-small .nav-link.dropdown-toggle.show {
+    color: $blue !important;
+    border-bottom: none;
+}
+
+.navbar-small .dropdown-menu {
+    border-top-color: $red !important;
+    border-bottom-color: $red !important;
+    background-color: $white;
+    border-radius: 0;
+    margin-top: 0 !important;
+}
+
+/* Footer */
+.institution-logo {
+    @extend .pe-3;
+}
+
+.institution-logo img {
+    height: 40px !important;
+}
+
+.institution-logo:last-of-type {
+    @extend .me-0;
+}
+
+/* Misc elements */
+hr {
+    border-color: $red !important;
+    opacity: 1 !important;
+}

@@ -1,0 +1,27 @@
+<div class="container py-3 border-top border-3">
+    <div class="row">
+        <div class="col-lg-8 mt-3">
+            <h3>Institutions</h3>
+            <div class="d-flex flex-wrap">
+                {% for institution in site.data.institutions.institutions %}
+                <div class="institution-logo py-2">
+                    <a href="{{ institution.url }}"><img src="{{institution.logo}}"/></a>
+                </div>
+                {% endfor %}
+            </div>
+            <h3 class="mt-3">Partners</h3>
+            <div class="d-flex py-2">
+                {% for institution in site.data.institutions.partners %}
+                <div class="institution-logo">
+                    <a href="{{ institution.url }}"><img src="{{institution.logo}}"/></a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-lg-4 mt-3">
+            <h3>Funding</h3>
+            The SLIDE project is funded by NERC Standard Grant NE/X000257/1.
+        </div>
+    </div>
+</div>
+<script src="{{ site.baseurl }}assets/js/bootstrap.bundle.min.js"></script>
