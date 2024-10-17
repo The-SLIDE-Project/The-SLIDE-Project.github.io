@@ -1,0 +1,42 @@
+---
+layout: splash
+title: Fieldwork
+splashimg: /assets/img/fieldwork_walking.jpg
+---
+
+<div class="row">
+    
+    <div class="col-lg-12">
+        <h1>Field work</h1>
+        <hr class="border-2"/>
+        <p>
+            The SLIDE team have deployed over 200 scientific instruments on the glacier over two years (2023 and 2024), camping on or close to the glacier. This has involved a team of over 25 scientists, with more than 700 person-days in the field. Logistical support is provided by Chris Sørensen and the Kangerlussuaq International Science Support (KISS) Centre.
+        </p>
+        <p>
+            Although the project is focused on the lakes that exist under the ice, there is also a very large lake that is trapped against the ice, i.e. the ice acts like a giant dam. This lake is about 3 km across and 100 m deep (volume of ~163 million cubic meters, or 65,200 Olympic swimming pools!) and, just like the lakes under the ice, slowly fills before catastrophically draining in a flood under the ice. Last October (2023) this happened, with our sensors picking up the ~10 day-duration glacial lake outburst flood. 
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <h2>Sensors and instrumentation</h2>
+        <hr class="border-2"/>
+        <p>
+            We have deployed a range of geophysical sensors to monitor the flow of the ice and to remotely explore the hidden world that exists underneath the glacier. To do this we use:  
+        </p>
+    </div>
+</div>
+<div class="row row-cols-1 row-cols-md-4 g-4">
+    {% for instrument in site.data.instruments.instruments %}
+    <div class="col-lg-3">
+        <div class="card" style="width: 100%;">
+            <img src="{{ instrument.imgurl }}" class="card-img-top" alt="..."/>
+            <div class="card-body">
+                <h4 class="card-title">{{ instrument.name }}</h4>
+                <p class="card-text">{{ instrument.text }}</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

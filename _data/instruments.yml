@@ -1,0 +1,29 @@
+instruments:
+  - id: gnss
+    name: GNSS
+    text: We use global navigation satellites (GNSS) to monitor very precisely how the ice flows and is lifted up and down by the flow of water and filling and draining of lakes underneath it.
+    imgurl: /assets/img/instrument_gnss.jpg
+  - id: passiveseis
+    name: Passive seismics
+    text: Passive seismic sensors to listen to the sound of water flow under the ice and coming out from the front of the glacier, just like you can hear the flow of a large river on land. These sensors can also listen to the sound of cracking as water forces its way to the bed through cracks and holes in the ice.
+    imgurl: /assets/img/instrument_passiveseis.jpg
+  - id: radar
+    name: Radar
+    text: We pull a radar over the glacier surface to image through the ice to the bed to determine what the landscape looks like and to determine the shape of the lakes. We also use a different type of radar that stays in one place, which can be used in tandem with the GPS to determine very accurately the rate of lake filling and drainage. 
+    imgurl: /assets/img/instrument_radar.jpg
+  - id: activeseis
+    name: Active seismics
+    text: Active seismics, involving generating seismic waves by hitting a metal plate with a hammer is also used to determine the landscape under the ice, but also whether that bed is sediment or rock and how deep the lakes are.
+    imgurl: /assets/img/instrument_activeseis.jpg
+  - id: drone
+    name: Drone
+    text: Drones have been used to repeatedly map the topography of the ice surface at centimetre-scale resolution. By then subtracting one image from another we can determine how the surface is moving up and down in response to water flow and lake filling and draining. We also use the images to map the ice surface to identify where water can access the bed through cracks and holes.
+    imgurl: /assets/img/instrument_drone.jpg
+  - id: cryoegg
+    name: Cryoeggs
+    text: Cryoeggs are spherical sensors, about the size of a melon, that we put down holes or cracks in the ice with the aim that they make their way to the bed of the glacier and send us information back about the lakes and the plumbing system that water moves through. We have also put similar sensors, called pressure transducers, but connected by wires down some holes.
+    imgurl: /assets/img/instrument_cryoegg.jpg
+  - id: methydro
+    name: Met & Hydro Stations
+    text: We have also been measuring how much water is entering the glacier and have a meteorological station to track how the weather is impacting melting of the ice surface.
+    imgurl: /assets/img/instrument_met.jpg

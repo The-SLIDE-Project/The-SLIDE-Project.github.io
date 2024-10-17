@@ -1,8 +1,14 @@
 - title: Home
   url: /
 - title: The Project
-  url: /about 
+  url: /about
+- title: Field Work
+  url: /fieldwork
+- title: Modelling
+  url: /modelling
 - title: Publications
   url: /publications
+- title: Team
+  url: /team
 - title: Blog
   url: /blog

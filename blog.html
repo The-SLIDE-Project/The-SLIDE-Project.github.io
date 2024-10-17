@@ -1,0 +1,16 @@
+---
+layout: splash
+title: Blog Posts
+splashimg: /assets/img/rs_crevasses_terminus.jpg
+---
+<div class="col-lg-12">
+    <h1>Blog Posts</h1>
+    <hr class="border-2"/>
+    <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+    </ul>
+</div>
