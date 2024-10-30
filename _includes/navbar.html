@@ -6,7 +6,7 @@ Menu <span class="navbar-toggler-icon ms-2"></span>
     <ul class="navbar-nav">
         {% for item in site.data.nav %}
         <li class="nav-item">
-            <a class="nav-link{% if item.url == page.url %} active{% endif %}" {% if item.url == page.url %}aria-current="page"{% endif %}href="{{ item.url }}">{{ item.title }}</a>
+            <a class="nav-link{% if item.url == page.url %} active{% endif %}" {% if item.url == page.url %}aria-current="page"{% endif %}href="{{ item.url | relative_url}}">{{ item.title }}</a>
         </li>
         {% endfor %}
         {{item.u}}

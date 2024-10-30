@@ -14,7 +14,7 @@
             <ul class="dropdown-menu">
             {% for subitem in site.data.nav %}
                 {% if subitem.url != page.url %}
-                <li><a class="dropdown-item" href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+                <li><a class="dropdown-item" href="{{ subitem.url | relative_url }}">{{ subitem.title }}</a></li>
                 {% endif %}
             {% endfor %}
             </ul>
@@ -26,7 +26,7 @@
                 </a>
                 <ul class="dropdown-menu">
                 {% for subitem in site.data.nav %}
-                    <li><a class="dropdown-item" href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+                    <li><a class="dropdown-item" href="{{ subitem.url | relative_url }}">{{ subitem.title }}</a></li>
                 {% endfor %}
                 </ul>
             {% endif %}

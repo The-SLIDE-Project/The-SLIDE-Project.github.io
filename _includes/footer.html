@@ -5,7 +5,7 @@
             <div class="d-flex flex-wrap">
                 {% for institution in site.data.institutions.institutions %}
                 <div class="institution-logo py-2">
-                    <a href="{{ institution.url }}"><img src="{{institution.logo}}"/></a>
+                    <a href="{{ institution.url }}"><img src="{{institution.logo | relative_url}}"/></a>
                 </div>
                 {% endfor %}
             </div>
@@ -13,16 +13,17 @@
             <div class="d-flex py-2">
                 {% for institution in site.data.institutions.partners %}
                 <div class="institution-logo">
-                    <a href="{{ institution.url }}"><img src="{{institution.logo}}"/></a>
+                    <a href="{{ institution.url }}"><img src="{{institution.logo | relative_url}}"/></a>
                 </div>
                 {% endfor %}
             </div>
         </div>
         <div class="col-lg-4 mt-3">
             <h3>Funding</h3>
-            The SLIDE project is funded by NERC Standard Grant NE/X000257/1.
+            <img class="mb-3" style="width: 100%;" src="{{ "/assets/img/logos/nerc.png" | relative_url }}"/>
+            The SLIDE project is funded by the <a href="https://ukri.org/councils/nerc/">Natural Environmental Research Council</a> Standard Grant NE/X000257/1.
         </div>
     </div>
 </div>
-<script src="{{ site.baseurl }}assets/js/bootstrap.bundle.min.js"></script>
+<script src="{{ "/assets/js/bootstrap.bundle.min.js" | relative_url }}"></script>
 <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>

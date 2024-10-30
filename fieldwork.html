@@ -28,9 +28,9 @@ splashimg: /assets/img/fieldwork_walking.jpg
 </div>
 <div class="row row-cols-1 row-cols-md-4 g-4">
     {% for instrument in site.data.instruments.instruments %}
-    <div class="col-lg-3">
+    <div class="col-md-3">
         <div class="card" style="width: 100%;">
-            <img src="{{ instrument.imgurl }}" class="card-img-top" alt="..."/>
+            <img src="{{ instrument.imgurl | relative_url }}" class="card-img-top" alt="..."/>
             <div class="card-body">
                 <h4 class="card-title">{{ instrument.name }}</h4>
                 <p class="card-text">{{ instrument.text }}</p>

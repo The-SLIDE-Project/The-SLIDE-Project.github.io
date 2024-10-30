@@ -1,0 +1,10 @@
+<div class="card mb-3" style="width: 100%;">
+    <div class="card-img-top" style="background-position: center; background-size: cover; background-image: url({{ include.post.image | relative_url }}); height: {{ include.card_height }};"></div>
+<!--
+    <img src="{{ include.post.image | relative_url }}" class="card-img-top" alt="..."> -->
+    <div class="card-body">
+        <h5 class="card-title">{{ include.post.title }}</h5>
+        <p class="card-text">{{ include.post.description }}</p>
+        <a href="{{ include.post.url | relative_url }}" class="btn btn-primary">Read more</a>
+    </div>
+</div>
