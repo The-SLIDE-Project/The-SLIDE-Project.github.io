@@ -13,10 +13,30 @@ $(document).ready(function () {
     // Load Map Object
     var map = L.map('map', {
         layers : [osm_map]
-    }).setView([67.187068, -50.184488], 10);
+    }).setView([67.187068, -50.184488], 10.5);
 
     // Option
     var layerControl = L.control.layers({"OSM":osm_map},{}).addTo(map);
+
+    // L.marker([67.180019,-50.187675]).addTo(map)
+    // .bindPopup('Lake 1')
+
+    // L.marker([67.178857,-50.149200]).addTo(map)
+    // .bindPopup('Lake 2')
+
+    // L.marker([67.179742,-50.128219]).addTo(map)
+    // .bindPopup('Lake 3')
+    
+    jQuery.getJSON("/assets/maps/elev_anomalies.geojson", function(map_data) {
+
+        features = map_data["features"]
+        features.forEach(function (feature) {
+            console.log("Adding")
+            console.log(feature)
+            L.geoJSON(feature).addTo(map).bindPopup(feature.properties.layer)
+        });
+
+    });
 
     // jQuery.getJSON("/assets/files/2023-06-18/inner_hebrides_2023_map.json", function(map_data) {
 

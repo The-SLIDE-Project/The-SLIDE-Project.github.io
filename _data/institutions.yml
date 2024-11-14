@@ -4,42 +4,42 @@ institutions:
     url: https://www.sheffield.ac.uk/
   - title: Aberystwyth University
     logo: /assets/img/logos/aberystwyth.png
-    url: #
+    url: https://www.aber.ac.uk/en/
   - title: University of Bristol
     logo: /assets/img/logos/bristol.jfif
-    url: #
+    url: https://www.bristol.ac.uk/
   - title: Sheffield Hallam University
     logo: /assets/img/logos/sheffieldhallam.png
-    url: #
+    url: https://www.shu.ac.uk/
   - title: University of Leeds
     logo: /assets/img/logos/leeds.png
-    url: #
+    url: https://www.leeds.ac.uk/
   - title: Northumbria University
     logo: /assets/img/logos/northumbria.jfif
-    url: #
+    url: https://www.northumbria.ac.uk/
   - title: Liverpool John Moores University
     logo: /assets/img/logos/liverpooljmu.png
-    url: #
+    url: https://www.ljmu.ac.uk/
   - title: Newcastle University
     logo: /assets/img/logos/newcastle.png
-    url: #
+    url: https://www.ncl.ac.uk/
 
 partners:
   - title: Cadiff University
     logo: /assets/img/logos/cardiff.png
-    url: #
+    url: https://www.cardiff.ac.uk/
   - title: St Andrews
     logo: /assets/img/logos/standrews.png
-    url: #
+    url: https://www.st-andrews.ac.uk/
   - title: Edinburgh
     logo: /assets/img/logos/edinburgh.png
-    url: #
+    url: https://www.ed.ac.uk/
   - title: Durham
     logo: /assets/img/logos/durham.svg
-    url: #
+    url: https://www.durham.ac.uk/
   - title: KISS
     logo: /assets/img/logos/kiss.png
     url: #
   - title: IGE Grenoble
     logo: /assets/img/logos/ige.png
-    url: #
+    url: https://www.ige-grenoble.fr/
