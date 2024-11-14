@@ -15,7 +15,7 @@ lib: leaflet
             This three year project aims to determine how water is stored in lakes under the Greenland Ice Sheet, how they drain and evolve through time, and their wider impact on water drainage and the flow of ice.
         </p>
         <p>
-            [More text and images.]
+            Read more about the methods used in <a href="{{ /fieldwork | relative_url }}">fieldwork</a>, <a href="{{ /modelling | relative_url }}">modelling</a> and <a href="{{ /team | relative_url}}">the team</a>.
         </p>
     </div>
     <div class="col-lg-6">
@@ -29,12 +29,15 @@ lib: leaflet
     </div>
 </div>
 <div class="row row-cols-1 row-cols-md-3 g-4">
+    {% if site.posts == empty %}
+    <div class="col-md-12">No blogs to display at the moment, come back later!</div>
+    {% else %}
     {% for post in site.posts limit:3 %}
     <div class="col-md-4">
     {% include blog_card.html post=post use_description=false card_height="5rem" %}
     </div>
     {% endfor %}
-</div>
+    </div>
 <div class="row">
     <div class="col-12-6">
         <p>
@@ -42,5 +45,6 @@ lib: leaflet
         </p>
         <a href="{{ /blog | relative_url }}" class="btn btn-primary">View all blog posts.</a>
     </div>
+    {% endif %}
 </div>
 <script src="/assets/js/is_map.js"></script>
