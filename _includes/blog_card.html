@@ -4,7 +4,10 @@
     <img src="{{ include.post.image | relative_url }}" class="card-img-top" alt="..."> -->
     <div class="card-body">
         <h5 class="card-title">{{ include.post.title }}</h5>
+        {% if include.use_description %}
         <p class="card-text">{{ include.post.description }}</p>
+        {% else %}
+        {% endif %}
         <a href="{{ include.post.url | relative_url }}" class="btn btn-primary">Read more</a>
     </div>
 </div>
