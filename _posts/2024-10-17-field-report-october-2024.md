@@ -45,7 +45,7 @@ These methods are listed approximately in order of success... Spoiler, not all w
 
 <figure class="figure">
     <div class="col">
-        <img src="{% link assets/img/blogs/autumn-blog/SK_tem.jpg %}" class="img-fluid" alt="Lisa performing one of many hammer strikes to collect a seismic shot gather. (Photo: Remy Veness)"/>    
+        <img src="{% link assets/img/blogs/autumn-blog/RV_seismics.jpg %}" class="img-fluid" alt="Lisa performing one of many hammer strikes to collect a seismic shot gather. (Photo: Remy Veness)"/>    
     </div>
     <figcaption class="figure-caption">Lisa performing one of many hammer strikes to collect a seismic shot gather. (Photo: Remy Veness)</figcaption>
 </figure>
