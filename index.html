@@ -34,14 +34,14 @@ lib: leaflet
     {% else %}
     {% for post in site.posts limit:3 %}
     <div class="col-md-4">
-    {% include blog_card.html post=post use_description=false card_height="5rem" %}
+    {% include blog_card.html post=post use_description=true card_height="5rem" %}
     </div>
     {% endfor %}
     </div>
 <div class="row">
     <div class="col-12-6">
         <p>
-            The SLIDE blog has field reports and other notes from the project.  The latest three blog posts are shown above.
+            The SLIDE blog has field reports and other notes from the project.  The latest blog posts are shown above.
         </p>
         <a href="{{ 'blog' | relative_url }}" class="btn btn-primary">View all blog posts.</a>
     </div>

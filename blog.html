@@ -13,7 +13,7 @@ splashimg: /assets/img/rs_crevasses_terminus.jpg
 <div class="row row-cols-1 row-cols-md-3 g-4">
     {% for post in site.posts %}
     <div class="col-md-4">
-    {% include blog_card.html post=post card_height="10rem" %}
+    {% include blog_card.html post=post card_height="10rem" use_description=true %}
     </div>
     {% endfor %}
     {% endif %}
