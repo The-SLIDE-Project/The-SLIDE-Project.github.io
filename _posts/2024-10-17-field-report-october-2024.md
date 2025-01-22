@@ -52,7 +52,7 @@ These methods are listed approximately in order of success... Spoiler, not all w
 
 Seismic methods are the most hands-on form of the send-a-wave-down-and-measure-the-reflection principle. We used a hammer and plate method, which consists of literally hitting a plastic plate with a sledgehammer to create a vibrational wave, which reflects off subsurface interfaces and comes back up to be measured on instruments called 'geophones' at the surface. We deployed geophones every 2m over over stretches of 200m, and the difference in time between the vibrational waves arriving at one geophone relative to the next can give us a lot of information about the location and geometry of subsurface interfaces such as the glacier bed.
 
-We spent x days running seismic surveys in x different locations, deliberately targeting the centre, margin and outside of 'Lake' 1 so that we can compare the data collected between those locations and determine if there are any significant differences in bed properties.
+We spent $ days running seismic surveys in 3 different locations, deliberately targeting the centre, margin and outside of 'Lake' 1 so that we can compare the data collected between those locations and determine if there are any significant differences in bed properties.
 
 ## Passive seismics: node to self
 
@@ -63,7 +63,7 @@ We spent x days running seismic surveys in x different locations, deliberately t
     <figcaption class="figure-caption">The paper map used to retrieve the seismic nodes. (Photo: Lisa Craw)</figcaption>
 </figure>
 
-During the June-July field block this year, seismic recievers ("nodes") were deployed in a network across the glacier. These receivers sit and pick up vibrations in the ice as they happen, to collect similar data to our active seismic survey, but 'passively' while we aren't there. We spent two days collecting all xxx of these nodes so that the data could be downloaded. This was no easy task, as the nodes had frozen into the ground and needed to be chipped out one by one. Luckily we had some keen rogainers in our midst, and this quickly turned into a race. Of course it's not important who won, it was all about participation and absolutely nobody is sore about losing. 
+During the June-July field block this year, seismic recievers ("nodes") were deployed in a network across the glacier. These receivers sit and pick up vibrations in the ice as they happen, to collect similar data to our active seismic survey, but 'passively' while we aren't there. We spent two days collecting all 113 of these nodes so that the data could be downloaded. This was no easy task, as the nodes had frozen into the ground and needed to be chipped out one by one. Luckily we had some keen rogainers in our midst, and this quickly turned into a race. Of course it's not important who won, it was all about participation and absolutely nobody is sore about losing. 
 
 ## Radar: glacio killed the radio star 
 
@@ -76,7 +76,7 @@ During the June-July field block this year, seismic recievers ("nodes") were dep
 
 Ice-penetrating radar is a method of sending radio waves into the ice, and detecting the returns using an antenna on the surface. The system we used is mounted on two sleds (the transmitter on one, and receiver on the other) with the antenna between. These can be dragged along the ice while continuously transmitting, allowing data to be collected over a large area. Sounds easy, right??
 
-However, Isunnguata Sermia is not so easy to pin down. The uneven topography made dragging the sleds in a straight line and at a consistent speed extremely difficult, and it took a team of four people (one navigator, one chief dragger and a minder for each sled) to collect radar lines. Against the odds, we managed to collect x km of data over 'lakes' 1 and 2, with the glacier bed clearly visible!
+However, Isunnguata Sermia is not so easy to pin down. The uneven topography made dragging the sleds in a straight line and at a consistent speed extremely difficult, and it took a team of four people (one navigator, one chief dragger and a minder for each sled) to collect radar lines. Against the odds, we managed to collect 26 km of data over 'lakes' 1 and 2, with the glacier bed clearly visible!
 
 Unfortunately this chapter of the story ends in a tragic denouement, as the receiver sled took a swift dive into a crevasse and could not be revived (despite the efforts of some very capable trauma surgeons). However, we still managed to collect a huge amount of data, and consider this overall a big success.
 
@@ -100,7 +100,7 @@ The correct name for this method is Transient Electromagnetics, however we have 
     <figcaption class="figure-caption">Teamwork is vital when you need that little bit of extra reach. (Photo: Lisa Craw)</figcaption>
 </figure>
 
-We took the opportunity to service x existing instruments. This involved trekking out to the installations all accross the glacier, checking that they were still functioning, and recording the data. As the glacier surface is constantly ablating away, new poles needed to be installed and solar panels lowered before they could topple over.
+We took the opportunity to service several existing instruments. This involved trekking out to the installations all accross the glacier, checking that they were still functioning, and recording the data. As the glacier surface is constantly ablating away, new poles needed to be installed and solar panels lowered before they could topple over.
 
 These instruments measure GPS location to cm-scale accuracy, alongside some seismic receivers to pick up vibrations in the glacier, and weather stations to record the conditions throughout the year.
 
